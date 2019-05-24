@@ -1,0 +1,44 @@
+{
+  "name": "youtube-client",
+  "version": "1.0.0",
+  "description": "The web app to view the information about youtube clips on user request",
+  "main": "src/index.js",
+  "dependencies": {
+    "html-minifier-webpack-plugin": "^2.0.1",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.17.2",
+    "file-loader": "^3.0.1",
+    "font-loader": "^0.1.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "4.30.0",
+    "webpack-cli": "3.3.2",
+    "webpack-dev-server": "3.3.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "eslint": "eslint src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/jenia-shibkova-2019Q1.git"
+  },
+  "author": "Eugenia Shibkova <shibkova@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/jenia-shibkova-2019Q1/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/jenia-shibkova-2019Q1#readme"
+}
